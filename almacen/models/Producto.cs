@@ -4,9 +4,9 @@ namespace almacen.models
 
 {
     private  int codigo;
-    private String nombre;
+    private string nombre;
 
-    private String descripcion;
+    private string descripcion;
 
     private float precioUnitario;
 
@@ -17,7 +17,7 @@ public Producto (){
 
 }
 
-public Producto(int codigo, String nombre, String descripcion, float precioUnitario,int cantidadStoock, Proveedor proveedor ){
+public Producto(int codigo, string nombre, string descripcion, float precioUnitario,int cantidadStoock, Proveedor proveedor ){
 
     this.codigo=codigo;
     this.nombre=nombre;

@@ -3,7 +3,7 @@ namespace almacen.models
 {
    public class Proveedor{
      private int idProveerdor;
-     private String nombre;
+     private string nombre;
 
      private List<Producto> productosSuministrados;
 
@@ -11,10 +11,10 @@ namespace almacen.models
 
      }
 
-     public Proveedor( int idProveerdor, String nombre, List<Producto> productosSuminstrados ){
+     public Proveedor( int idProveerdor, string nombre ){
          this.idProveerdor=idProveerdor;
          this.nombre=nombre;
-         this.productosSuministrados=[];
+         productosSuministrados=[];
 
 
      }
