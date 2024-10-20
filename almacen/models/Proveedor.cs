@@ -2,8 +2,8 @@ namespace almacen.models
 
 {
    public class Proveedor{
-     private int idProveerdor;
-     private string nombre;
+     private int idProveerdor {get; set;}
+     private string nombre {get; set;}
 
      private List<Producto> productosSuministrados;
 
