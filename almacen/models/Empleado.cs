@@ -1,21 +1,45 @@
 namespace almacen.models{
-    public class Empleado{
-      private  int idEmpleado;
+    public abstract class  Empleado{
 
-      private string nombre;
+        private  int idEmpleado{get;set;}
 
-      private string rol;
+      private string nombre {get; set;}
+
+      private string rol{get; set;}
+
+      public int IDEmpleado{
+      get { return idEmpleado; }   // Getter
+      set { idEmpleado = value; }  // Setter
+
+     }
+
+      public string Nombre
+    {
+        get { return nombre; }   // Getter
+        set { nombre = value; }  // Setter
+    }
+     public string Rol{
+      get { return rol; }   // Getter
+      set { rol = value; }  // Setter
+
+     }
 
       public Empleado(){
 
       }
 
+        
 
-      public Empleado (int idEmpleado, string nombre, string rol){
+        public Empleado (int idEmpleado, string nombre, string rol){
         this.idEmpleado=idEmpleado;
         this.nombre=nombre;
         this.rol=rol;
       }
 
+
+
+      public abstract void MostrarInformacion();
+
+        
     }
 }

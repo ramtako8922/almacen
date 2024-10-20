@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("almacen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+999621ea3c9c81cec1f47752d5ba3208320832f5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c0a2911d6adb2f2498580e61156810bdc18a257")]
 [assembly: System.Reflection.AssemblyProductAttribute("almacen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("almacen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
